@@ -18,3 +18,5 @@ class EstudianteAdmin(admin.ModelAdmin):
 # el primer argumento es el modelo (Estudiante)
 # el segundo argumento la clase EstudianteAdmin
 admin.site.register(Estudiante, EstudianteAdmin)
+available
+

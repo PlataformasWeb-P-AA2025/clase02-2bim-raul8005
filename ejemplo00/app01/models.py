@@ -4,6 +4,8 @@ from django.db import models
 
 class Estudiante(models.Model):
     nombre = models.CharField(max_length=30)
+    #Poner indicador para que salga en adminisrtracion de DJANGO
+    #nombre = models.CharField("Nombre del estudiante", max_length=30)
     apellido = models.CharField(max_length=30)
     cedula = models.CharField(max_length=30, unique=True)
     edad = models.IntegerField()
